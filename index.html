@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AngErQuiz</title>
+<link rel="stylesheet" href="themes/quiz.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+    $(document).bind('mobileinit',function(){
+        $.mobile.changePage.defaults.changeHash = false;
+        $.mobile.hashListeningEnabled = false;
+        $.mobile.pushStateEnabled = false;
+    });
+</script>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css" />
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
+<script>
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+var element = document.getElementById('deviceProperties');
+element.innerHTML =
+'Device Name: '   + device.name   + '<br />' +
+'Device PhoneGap: ' + device.phonegap + '<br />' +
+'Device Platform: ' + device.platform + '<br />' +
+'Device UUID: ' + device.uuid + '<br />' +
+'Device Version: ' + device.version + '<br />';
+}
+</script>
+
+</head>
+
+<body>
+
+<div data-role="page" id="HOME">
+  <div data-role="header">
+    <a href="#HOME" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">HOME</a>
+     <h1>AngErQuiz</h1>
+    <a href="#QUIZ" class="ui-btn ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-right">QUIZ</a>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  <p></p>
+  <center>Aplikacja z angielskim testem językowym dla studentów chcących skorzystać z programu Erasmus.<br>
+  Na końcu zostanie podany wynik określający wiadomości językowe.
+  <br><br> Autor: collector1871<br> (<a href="http://collector1871.github.io/">collector1871.github.io/</a>)<br><br>
+  </center><br><center>
+		<img src="logo_pl.jpg"></center>
+
+  </div>
+
+  <div data-role="footer">
+  <h1>ver 1.0</h1>
+
+  </div>
+</div>
+
+<div data-role="page" id="QUIZ">
+
+      <div data-role="header">
+	<a href="#HOME" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">HOME</a>
+	<a href="#QUIZ" class="ui-btn ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-right">QUIZ</a>
+      <h1>AngErQuiz</h1>
+      </div>
+
+      <div data-role="main" class="ui-content">
+	<p>
+
+<div id="container">
+	<h1><font color="blue">Quiz językowy</font></h1>
+      <div id="content">
+        <h3 id="question"></h3>
+        <div id="choices"></div>
+        <p><button id="submit"></button></p>
+        <p id="score"></p>
+      </div>
+    </div>
+<script language="JavaScript" type="text/javascript" src="js/quizuek.js">
+</script>
+
+
+	</p>
+
+
+      </div>
+
+<div data-role="footer">
+<h1>ver 1.0</h1>
+</div>
+
+
+
+</div>
+
+
+
+</body>
+
+</html>

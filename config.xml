@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "1.0" 
+        version     = "1.0.0" >
+	<gap:platform name="android" />
+	<gap:plugin name="org.apache.cordova.Device" />
+	
+<icon src="icons/drawable-ldpi/ic_launcher.png"  gap:platform="android" gap:density="ldpi"  />
+<icon src="icons/drawable-mdpi/ic_launcher.png"  gap:platform="android" gap:density="mdpi"  />
+<icon src="icons/drawable-hdpi/ic_launcher.png"  gap:platform="android" gap:density="hdpi"  />
+<icon src="icons/drawable-xhdpi/ic_launcher.png" gap:platform="android" gap:density="xhdpi" />
+<icon src="icons/drawable-xxhdpi/ic_launcher.png" gap:platform="android" gap:density="xxhdpi" />
+<icon src="icons/drawable-xxxhdpi/ic_launcher.png" gap:platform="android" gap:density="xxxhdpi" />
+	
+<gap:splash src="splscreen/drawable-ldpi/LOGO.jpg"  gap:platform="android" gap:density="ldpi"  />
+<gap:splash src="splscreen/drawable-mdpi/LOGO.jpg"  gap:platform="android" gap:density="mdpi"  />
+<gap:splash src="splscreen/drawable-hdpi/LOGO.jpg"  gap:platform="android" gap:density="hdpi"  />
+<gap:splash src="splscreen/drawable-xhdpi/LOGO.jpg" gap:platform="android" gap:density="xhdpi" />
+<gap:splash src="splscreen/drawable-xxhdpi/LOGO.jpg" gap:platform="android" gap:density="xxhdpi" />
+<gap:splash src="splscreen/drawable-xxxhdpi/LOGO.jpg" gap:platform="android" gap:density="xxxhdpi" />
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Quiz UEK</name>
+
+    <description>
+       Mobilna aplikacja UEK z testem sprawdzającym umiejętności językowe.
+    </description>
+
+    <author href="https://build.phonegap.com" email="support@phonegap.com">
+        Rafał Beniowski
+    </author>
+
+</widget>
