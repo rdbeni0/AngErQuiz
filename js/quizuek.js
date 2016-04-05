@@ -163,7 +163,7 @@ function askQuestion() {
   /* ustaw na pierwszy raz */
   if (currentQuestion === 0) {
     scoreContainer.textContent = "PUNKTY: Brak poprawnych odpowiedzi na " +
-      (quiz.length - 1) + " możliwych. Rozpocznij test językowy UEK!";
+      (quiz.length - 1) + " możliwych. Rozpocznij test językowy!";
     submitBtn.textContent = "ZAZNACZ i PODAJ ODPOWIEDŹ";
   }
 }
@@ -229,7 +229,7 @@ function showFinalResults() {
 
 else if (koniec<51){ content.innerHTML = "<h2>Koniec!</h2>" +
     "<h2><font color=red>Twoje wyniki są następujące:</h2>" +
-    "<h3>" + score + " poprawnych odpowiedzi na " + (quiz.length - 1) + " pytań, czyli " + koniec + "%.</font></h3><h4><br> <font color=brown>Ten wynik nie jest satysfakcjonujący. Jednak jakąś wiedzę już posiadasz. Jesteś blisko wystarczającego poziomu, ale brakuje ci umiejętności. Musisz jeszcze trochę pouczyć się języka, aby mieć wieksze szanse zakwalifikowaia się np. do programu Erasmus. Powodzenia! </font></h4>"; }
+    "<h3>" + score + " poprawnych odpowiedzi na " + (quiz.length - 1) + " pytań, czyli " + koniec + "%.</font></h3><h4><br> <font color=brown>Ten wynik nie jest satysfakcjonuj…cy. Jednak jakąś wiedzę już posiadasz. Jesteś blisko wystarczającego poziomu, ale brakuje ci umiejętności. Musisz jeszcze trochę pouczyć się języka, aby mieć wieksze szanse zakwalifikowaia się np. do programu Erasmus. Powodzenia! </font></h4>"; }
 
 else if (koniec<71){ content.innerHTML = "<h2>Koniec!</h2>" +
     "<h2><font color=green>Twoje wyniki są następujące:</h2>" +
@@ -241,7 +241,7 @@ else if (koniec<91){ content.innerHTML = "<h2>Koniec!</h2>" +
 
 else if (koniec<101){ content.innerHTML = "<h2>Koniec!</h2>" +
     "<h2><font color=green>Twoje wyniki są następujące:</h2>" +
-    "<h3>" + score + " poprawnych odpowiedzi na " + (quiz.length - 1) + " pytań, czyli " + koniec + "%.</font></h3><h4><br> <font color=brown>Twój poziom językowy jest naprawdę niezły! Gratulacje, jeseś w okolicach górnej normy, czyli powyżej 90% dobrych odpowiedzi! Z takimi wynikami masz duże szanse np. aby zakwalifikować się do programu Erasmus. Oczywiście, możesz popracować jeszcze nad swoim językiem. Praktyka czyni mistrza!</font></h4>"; }
+    "<h3>" + score + " poprawnych odpowiedzi na " + (quiz.length - 1) + " pytań, czyli " + koniec + "%.</font></h3><h4><br> <font color=brown>Twój poziom językowy jest naprawdę niezĹ‚y! Gratulacje, jeseś w okolicach górnej normy, czyli powyżej 90% dobrych odpowiedzi! Z takimi wynikami masz duże szanse np. aby zakwalifikować się do programu Erasmus. Oczywiście, możesz popracować jeszcze nad swoim językiem. Praktyka czyni mistrza!</font></h4>"; }
 
 }
 
