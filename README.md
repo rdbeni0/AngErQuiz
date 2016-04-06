@@ -1,14 +1,14 @@
 #### Angielski Erasmus Quiz
 
-* kod Ÿród³owy :
-https://github.com/collector1871/AngErQuiz
-* demonstracja & implementacja : <a href="http://collector1871.uk.to/projekty/AngErQuiz/"><b>na serwerze</b></a>
-(link zadzia³a tylko gdy serwer bêdzie w³¹czony)
+* kod ÅºrÃ³dÅ‚owy :   
+https://github.com/collector1871/AngErQuiz    
+* demonstracja & implementacja : <a href="http://collector1871.uk.to/projekty/AngErQuiz/"><b>na serwerze</b></a>   
+(link zadziaÅ‚a tylko gdy serwer bÄ™dzie wÅ‚Ä…czony)  
 * technologia: JS, HTML, jQuery-mobile
-* aplikacja zosta³a przystosowana do PhoneGap, a wiêc bêdzie mo¿liwa do uruchomienia natywnie na Androidzie
-
-
-Jest to quiz sprawdzaj¹cy znajomoœæ jêzyka angielskiego dzia³aj¹cy w technologii responsywnej. Po zaznaczeniu odpowiedzi na wszystkie pytania (30) wyœwietli siê wynik; suma punktów oraz adnotacja czy zdaj¹cy powinien skorzystaæ z programu wymiany Erasmus. Podstawow¹ technologi¹ wykorzystan¹ w budowie quizu jest JavaScript oraz jQuery-mobile.
+* aplikacja zostaÅ‚a przystosowana do PhoneGap, a wiÄ™c bÄ™dzie moÅ¼liwa do uruchomienia natywnie na Androidzie
+  
+  
+Jest to quiz sprawdzajÄ…cy znajomoÅ›Ä‡ jÄ™zyka angielskiego dziaÅ‚ajÄ…cy w technologii responsywnej. Po zaznaczeniu odpowiedzi na wszystkie pytania (30) wyÅ›wietli siÄ™ wynik; suma punktÃ³w oraz adnotacja czy zdajÄ…cy powinien skorzystaÄ‡ z programu wymiany Erasmus. PodstawowÄ… technologiÄ… wykorzystanÄ… w budowie quizu jest JavaScript oraz jQuery-mobile.
 
 #### Screenshoty
 
