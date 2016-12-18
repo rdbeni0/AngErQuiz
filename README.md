@@ -12,6 +12,6 @@ Jest to quiz sprawdzający znajomość języka angielskiego działający w techn
 
 #### Screenshoty
 
-![Start](http://collector1871.github.io/screeny/start.jpg)
+![Start](https://raw.githubusercontent.com/collector1871/AngErQuiz/master/start.jpg)
 
-![Poczatek quizu](http://collector1871.github.io/screeny/quiz-poczatek.jpg)
+![Poczatek quizu](https://raw.githubusercontent.com/collector1871/AngErQuiz/master/quiz-poczatek.jpg)
