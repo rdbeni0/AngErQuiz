@@ -2,8 +2,6 @@
 
 * kod źródłowy :   
 [https://github.com/rdbeni0/AngErQuiz][1]    
-* demonstracja & implementacja : <a href="http://rdbeni0.uk.to/projekty/AngErQuiz/"><b>na serwerze</b></a>   
-(link zadziała tylko gdy serwer będzie włączony)  
 * technologia: JS, HTML, jQuery-mobile
 * aplikacja została przystosowana do PhoneGap, a więc będzie możliwa do uruchomienia natywnie na Androidzie
   
